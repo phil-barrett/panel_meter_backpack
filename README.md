@@ -26,4 +26,4 @@ I liked the design so much, I designed another one for those ubiquitous volt and
 Here it is mounted on the Panel Meter.
 ![Mounted on Panel Meter](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139433_DxO_2048.jpg)
 
-The Kicad Design files are located here and a share OSHPark Project is here.  You can order three boards from OSHPark for 
+The Kicad Design files are located here and a [shared OSHPark Project is here](https://oshpark.com/shared_projects/dM8UnLfD).  You can order three boards from OSHPark for 
