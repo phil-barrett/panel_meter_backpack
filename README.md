@@ -11,4 +11,4 @@ I was building a test setup for my Teensy 4.1 CNC Breakout Board and wanted to m
 While I had a decent DMM with fairly accurate current measuring capability, I wanted something a bit more permanant without a lot of extra wires.  The ammeter I settled on is a generic "5 digit" panel meter that sell for $6-10 USD on the usual suspect sources. I paid about $13 with tax and shipping. Characterizing it, I found it was surprisingly good, within 100 microAmps of my DMM.
 
 My first PCB had a couple of small errors but was functional. Here is the result.
- ![Alt Text](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139403_DxO_2048.jpg)
+ ![Alt Text](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139405_DxO_2048.jpg)
