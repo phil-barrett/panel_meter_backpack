@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name screw_term_ammeter_v2.00-eagle-import)(type Legacy)(uri ${KIPRJMOD}/screw_term_ammeter_v2.00-eagle-import.lib)(options "")(descr ""))
+)
