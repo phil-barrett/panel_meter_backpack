@@ -1,6 +1,8 @@
 # Panel Ammeter Backpacks
 
 Those cheap Chinese panel ammeters and voltmeters are nice additions to a project but often require a lot of convoluted wiring. In addition, it appears that people are easily confused about the connections, the dead meter comments seem to indicate that.
+ ![Two panel meters](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139403_DxO_2048.jpg)
+
 
 I have been using them for a number of projects and evolved designs to use them. The AHA moment came when I realized I could clip a PCB wiring organizer onto the back of the meters.  They all seem to use exactly the same plastic bezel so I could standardize the openings in the PCB.
 
@@ -12,3 +14,4 @@ While I had a decent DMM with fairly accurate current measuring capability, I wa
 
 My first PCB had a couple of small errors but was functional. Here is the result.
  ![Alt Text](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139405_DxO_2048.jpg)
+ And here is is with the 
