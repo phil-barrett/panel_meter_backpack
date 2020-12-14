@@ -18,7 +18,7 @@ My first PCB had a couple of small errors but was functional. Here is the result
 
 The second iteration fixed a dumb footprint problem and used differential routing for the USB data lines. I also added silk screened information to make it clear which wires connect where. [Kicad files are here](https://github.com/phil-barrett/panel_ammeter_backpack/tree/main/design_files). However, this uses a microUSB connector I found on eBay a couple of years ago. A quick check did not show anything availble from the same source. It probably isn't available anywhere else.  I am looking for a suitable DigiKey/Mouser sourced part and will post Kicad files and an OSHPark shared project link.  Stay tuned.
 
-# Ammeter/Voltmeter V 2.50
+# Ammeter/Voltmeter Ver 2.50
 
 I liked the design so much, I designed another one for those ubiquitous volt and current panel meters you see all over the place. This one uses a barrel jack and/or a screw teriminal for 5-24 Volts. The meter can be powered from 5V to 30V and measure up to 100V.  I have it set up to power the meter from the measured voltage.  If you want to measure more than 30V, you will need to cut a solder jumper and use the external power pin header on the board. Output is via a screw terminal. I bought my meter from [ProtoSupplies](https://protosupplies.com/product/dual-display-0-100v-0-10a-panel-meter/). Not the cheapest but they test their meters before sending them out - something those Amazon/eBay/Aliwhatever sites clearly don't do. Protosupplies is one of my go to vendors.
 
@@ -31,4 +31,10 @@ The Kicad Design files are located here and a [shared OSHPark Project is here](h
   * J3 2.54mm 1x3 Pin Header - Common, Various Sources.
   * J4 2.54mm 1x2 Pin Header - Common, Various Sources.
   
+# USB Ammeter Ver 2.30
 
+Version 2.21 has been updated to use a more widely available USB Micro connector.  I also added a pin header and screw terminal for +5V so the backpack is now able supply power for other projects as well as USB based ones.  [OSHPark Shared Project is here](https://oshpark.com/shared_projects/VOw8OmO9).  Cost for 3 boards is $13.15 USD.   BoM is
+  * J2 USB Micro A/B - Molex 47589-101. Mouser - 538-47589-1001, DigiKey - WM14335CT-ND
+  * J3 3.5mm Screw Terminal - Widely Available
+  * J4 USB A Recpeticle - Amphenol ICC UE27AC5410H. Mouser - 523-UE27-AC54-100, DigiKey - UE27AC5410H-ND
+  * JP1, JP2 1x2 2.54mm pin headers - Widely Available.
