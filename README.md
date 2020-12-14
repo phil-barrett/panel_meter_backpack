@@ -13,8 +13,10 @@ While I had a decent DMM with fairly accurate current measuring capability, I wa
 
 My first PCB had a couple of small errors but was functional. Here is the result.
  ![Alt Text](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139405_DxO_2048.jpg)
- And here it is with the Back Pack installed on the Panel Meter.
+Here it is with the Back Pack installed on the Panel Meter.
 ![Mounted on the Panel Meter](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139408_DxO_2048.jpg)
+And, finally, mounted on a temporary panel.
+![temporary panel mount](https://github.com/phil-barrett/panel_meter_backpack/blob/main/RC139453_DxO_2048.jpg)
 
 The second iteration fixed a dumb footprint problem and used differential routing for the USB data lines. I also added silk screened information to make it clear which wires connect where. [Kicad files are here](https://github.com/phil-barrett/panel_ammeter_backpack/tree/main/design_files). However, this uses a microUSB connector I found on eBay a couple of years ago. A quick check did not show anything availble from the same source. It probably isn't available anywhere else.  I am looking for a suitable DigiKey/Mouser sourced part and will post Kicad files and an OSHPark shared project link.  Stay tuned.
 
