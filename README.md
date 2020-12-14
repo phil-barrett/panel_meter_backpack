@@ -38,3 +38,10 @@ Version 2.21 has been updated to use a more widely available USB Micro connector
   * J3 3.5mm Screw Terminal - Widely Available
   * J4 USB A Recpeticle - Amphenol ICC UE27AC5410H. Mouser - 523-UE27-AC54-100, DigiKey - UE27AC5410H-ND
   * JP1, JP2 1x2 2.54mm pin headers - Widely Available.
+  
+
+# Panel Meter Cutout
+
+These panel meters all seem to share the same plastic bezel design.  To mount them in a panel you need to cut out a rectangle 45.5 mm by 26 mm.  (1 13/16" X 1 1/32")
+![Panel cutout diemnsions](https://github.com/phil-barrett/panel_meter_backpack/blob/main/panel%20meter%20cutout.png)
+The panel should be at least 1.5mm (1/16") thick but not more than 3mm (1/8"). For thicker panel material, you should make it a bit taller (26.5 mm or more)
