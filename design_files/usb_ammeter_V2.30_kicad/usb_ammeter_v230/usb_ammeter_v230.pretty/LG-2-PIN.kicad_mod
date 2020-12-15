@@ -1,0 +1,12 @@
+(module LG-2-PIN (layer F.Cu) (tedit 5FD7AF90)
+  (fp_text reference J (at -2.54 -2.54) (layer F.SilkS) hide
+    (effects (font (size 0.9652 0.9652) (thickness 0.08128)) (justify right top))
+  )
+  (fp_text value PINHEADLG (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (pad P$2 thru_hole rect (at 3.81 0) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.1016))
+  (pad P$1 thru_hole rect (at -3.81 0) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask)
+    (solder_mask_margin 0.1016))
+)

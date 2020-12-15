@@ -1,0 +1,116 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# GND-usb_ammeter_v2.00-eagle-import
+#
+DEF GND-usb_ammeter_v2.00-eagle-import #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "GND-usb_ammeter_v2.00-eagle-import" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# LETTER_L-usb_ammeter_v2.00-eagle-import
+#
+DEF LETTER_L-usb_ammeter_v2.00-eagle-import #FRAME 0 40 Y Y 2 L N
+F0 "#FRAME" 0 0 50 H I C CNN
+F1 "LETTER_L-usb_ammeter_v2.00-eagle-import" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 700 750 85 0 2 0 >DRAWING_NAME Normal 0 L B
+T 0 500 50 85 0 2 0 >LAST_DATE_TIME Normal 0 L B
+T 0 3400 50 85 0 2 0 >SHEET Normal 0 L B
+T 0 50 50 85 0 2 0 Date: Normal 0 L B
+T 0 50 450 85 0 2 0 "Document Number:" Normal 0 L B
+T 0 3500 450 85 0 2 0 REV: Normal 0 L B
+T 0 2850 50 85 0 2 0 Sheet: Normal 0 L B
+T 0 50 750 85 0 2 0 TITLE: Normal 0 L B
+P 2 2 0 0 0 0 0 200 N
+P 2 2 0 0 0 0 2800 0 N
+P 2 2 0 0 0 200 0 600 N
+P 2 2 0 0 0 200 2800 200 N
+P 2 2 0 0 0 600 0 900 N
+P 2 2 0 0 0 900 0 1400 N
+P 2 2 0 0 0 900 4000 900 N
+P 2 2 0 0 2800 0 4000 0 N
+P 2 2 0 0 2800 200 2800 0 N
+P 2 2 0 0 2800 200 3450 200 N
+P 2 2 0 0 3450 200 4000 200 N
+P 2 2 0 0 3450 600 0 600 N
+P 2 2 0 0 3450 600 3450 200 N
+P 2 2 0 0 4000 200 4000 0 N
+P 2 2 0 0 4000 600 3450 600 N
+P 2 2 0 0 4000 600 4000 200 N
+P 2 2 0 0 4000 900 4000 600 N
+P 2 2 0 0 4000 1400 0 1400 N
+P 2 2 0 0 4000 1400 4000 900 N
+ENDDRAW
+ENDDEF
+#
+# PINHD-1X2-usb_ammeter_v2.00-eagle-import
+#
+DEF PINHD-1X2-usb_ammeter_v2.00-eagle-import JP 0 40 Y Y 1 L N
+F0 "JP" -250 225 59 H V L BNN
+F1 "PINHD-1X2-usb_ammeter_v2.00-eagle-import" -250 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -100 50 -100 N
+P 2 1 0 0 -250 200 -250 -100 N
+P 2 1 0 0 50 -100 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 1 -100 100 100 R 50 0 1 0 P I
+X 2 2 -100 0 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# PINHEADLG-usb_ammeter_v2.00-eagle-import
+#
+DEF PINHEADLG-usb_ammeter_v2.00-eagle-import J 0 40 Y Y 1 L N
+F0 "J" -250 225 59 H V L BNN
+F1 "PINHEADLG-usb_ammeter_v2.00-eagle-import" -250 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -100 50 -100 N
+P 2 1 0 0 -250 200 -250 -100 N
+P 2 1 0 0 50 -100 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 P$1 -100 100 100 R 50 0 1 0 P I
+X 2 P$2 -100 0 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# USB-AMPH-UE27-AC-usb_ammeter_v2.00-eagle-import
+#
+DEF USB-AMPH-UE27-AC-usb_ammeter_v2.00-eagle-import J 0 40 Y Y 1 L N
+F0 "J" -190 320 59 H V L BNN
+F1 "USB-AMPH-UE27-AC-usb_ammeter_v2.00-eagle-import" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 -240 -100 -240 N
+P 2 1 0 0 -200 -200 100 -200 N
+P 2 1 0 0 -200 300 -200 -200 N
+P 2 1 0 0 -100 -300 -100 -240 N
+P 2 1 0 0 -100 -240 0 -240 N
+P 2 1 0 0 0 -300 0 -240 N
+P 2 1 0 0 0 -240 150 -240 N
+P 2 1 0 0 100 -200 100 300 N
+P 2 1 0 0 100 300 -200 300 N
+P 2 1 0 0 150 -240 150 300 N
+X D+ D+ -400 0 200 R 0 50 1 0 B
+X D- D- -400 100 200 R 0 50 1 0 B
+X GND G -400 -100 200 R 0 50 1 0 B
+X M1 G1 -100 -300 0 U 0 0 1 0 B
+X M2 G2 0 -300 0 U 0 0 1 0 B
+X V+ VCC -400 200 200 R 0 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library
