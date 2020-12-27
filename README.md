@@ -36,9 +36,10 @@ The Kicad Design files are located here and a [shared OSHPark Project is here](h
 # USB Ammeter Ver 2.30
 
 Version 2.21 has been updated to use a more widely available USB Micro connector.  I also added a pin header and screw terminal for +5V so the backpack is now able supply power for other projects as well as USB based ones.  [OSHPark Shared Project is here](https://oshpark.com/shared_projects/VOw8OmO9).  Cost for 3 boards is $13.15 USD.   BoM is
-  * J2 USB Micro A/B - Molex 47589-101. Mouser - 538-47589-1001, DigiKey - WM14335CT-ND
+  * J2 USB Micro A/B - Molex 47589-101. Mouser - 538-47589-1001 , DigiKey - WM14335CT-ND
   * J3 3.5mm Screw Terminal - Widely Available
   * J4 USB A Recpeticle - Amphenol ICC UE27AC5410H. Mouser - 523-UE27-AC54-100, DigiKey - UE27AC5410H-ND
+  ** Update - new Amphenol Mouser Number: 649-87520-0012BLF. Same pinout.
   * JP1, JP2 1x2 2.54mm pin headers - Widely Available.
   
 
