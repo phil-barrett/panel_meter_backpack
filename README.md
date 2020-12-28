@@ -11,14 +11,18 @@ I was building a test setup for my [Teensy 4.1 CNC Breakout Board](https://githu
 
 While I had a decent DMM with fairly accurate current measuring capability, I wanted something a bit more permanant without a lot of extra wires.  The ammeter I settled on is a generic "5 digit" panel meter that sells for $6-10 USD from the usual suspect sources. I paid about $13 with tax and shipping. Characterizing it, I found it was surprisingly good, within 100 microAmps of my DMM. I designed the back pack with USB A and microUSB recepticles. It connects in-line and doesn't adversely affect USB communication. USB powers the meter itself.
 
-My first PCB had a couple of small errors but was functional. Here is the result.
+My first PCB had a couple of small errors but was functional. Here is Version 2.21.
  ![Alt Text](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139405_DxO_2048.jpg)
-Here it is with the Back Pack installed on the Panel Meter.
-![Mounted on the Panel Meter](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139408_DxO_2048.jpg)
+Here is the updated version 2.30 installed on the Panel Meter.
+![Mounted on the Panel Meter](https://github.com/phil-barrett/panel_meter_backpack/blob/main/RC279587_DxO_2048.jpg)
 And, finally, mounted on a temporary panel. The light you see at the top and bottom of the meter face is light shining through from the back. It does not show when mounted in the panel of an enclosed box. 
 ![temporary panel mount](https://github.com/phil-barrett/panel_meter_backpack/blob/main/RC139453_DxO_2048.jpg)
 
-The second iteration fixed a dumb footprint problem and used differential routing for the USB data lines. I also added silk screened information to make it clear which wires connect where. [Kicad files are here](https://github.com/phil-barrett/panel_ammeter_backpack/tree/main/design_files). However, this uses a microUSB connector I found on eBay a couple of years ago. A quick check did not show anything availble from the same source. It probably isn't available anywhere else.  I am looking for a suitable DigiKey/Mouser sourced part and will post Kicad files and an OSHPark shared project link.  Stay tuned.
+The second iteration fixed a dumb footprint problem and used differential routing for the USB data lines. I also added silk screened information to make it clear which wires connect where. [Kicad files are here](https://github.com/phil-barrett/panel_ammeter_backpack/tree/main/design_files). However, this uses a microUSB connector I found on eBay a couple of years ago. A quick check did not show anything availble from the same source. It probably isn't available anywhere else.  I am looking for a suitable DigiKey/Mouser sourced part and will post Kicad files and an OSHPark shared project link. 
+
+## Update
+
+I received the V2.30 boards back from OSHPark and they work great! See the USB Ammeter V2.30 section below.
 
 # Ammeter/Voltmeter Ver 2.50
 
@@ -41,7 +45,8 @@ Version 2.21 has been updated to use a more widely available USB Micro connector
   * J4 USB A Recpeticle - Amphenol ICC UE27AC5410H. Mouser - 523-UE27-AC54-100, DigiKey - UE27AC5410H-ND
   ** Update - new Amphenol Mouser Number: 649-87520-0012BLF. Same pinout.
   * JP1, JP2 1x2 2.54mm pin headers - Widely Available.
-  
+
+![New board mounted on a panel meter](https://github.com/phil-barrett/panel_meter_backpack/blob/main/RC279587_DxO_2048.jpg)
 
 # Panel Meter Cutout
 
