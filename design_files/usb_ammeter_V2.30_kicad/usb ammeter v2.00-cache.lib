@@ -1,0 +1,185 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# VAmeter_Library_PINHD-1X2
+#
+DEF VAmeter_Library_PINHD-1X2 JP 0 40 Y Y 1 L N
+F0 "JP" -250 225 59 H V L BNN
+F1 "VAmeter_Library_PINHD-1X2" -250 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -100 50 -100 N
+P 2 1 0 0 -250 200 -250 -100 N
+P 2 1 0 0 50 -100 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 1 -100 100 100 R 50 0 1 0 P I
+X 2 2 -100 0 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# VAmeter_Library_usb-micro-molex-sd-47589-101
+#
+DEF VAmeter_Library_usb-micro-molex-sd-47589-101 J 0 40 Y Y 1 F N
+F0 "J" -300 320 42 H V L BNN
+F1 "VAmeter_Library_usb-micro-molex-sd-47589-101" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -300 -300 -300 300 N
+P 2 1 0 0 -300 300 400 300 N
+P 2 1 0 0 400 -350 -300 -350 N
+P 2 1 0 0 400 300 400 -300 N
+P 2 1 1 0 -300 -350 -300 -300 N
+P 2 1 1 0 400 -350 400 -300 N
+X VCC_1 1 -500 200 200 R 0 50 1 0 B
+X D- 2 -500 100 200 R 0 50 1 0 B
+X D+ 3 -500 0 200 R 0 50 1 0 B
+X ID_4 4 -500 -100 200 R 0 50 1 0 B
+X GND_5 5 -500 -200 200 R 0 50 1 0 B
+X CG1 6 600 200 200 L 0 50 1 0 B
+X CG2 7 600 100 200 L 0 50 1 0 B
+X CG5 10 600 -200 200 L 50 50 1 1 B
+X CG6 11 600 -300 200 L 50 50 1 1 B
+X CG3 8 600 0 200 L 50 50 1 1 B
+X CG4 9 600 -100 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# conn_Screw_Terminal_01x02
+#
+DEF conn_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "conn_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*Terminal*Block*:*
+ TerminalBlock*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# usb-ammeter-v2.00-rescue_LETTER_L-usb_ammeter_v2.00-eagle-import
+#
+DEF usb-ammeter-v2.00-rescue_LETTER_L-usb_ammeter_v2.00-eagle-import #FRAME 0 40 Y Y 2 L N
+F0 "#FRAME" 0 0 50 H I C CNN
+F1 "usb-ammeter-v2.00-rescue_LETTER_L-usb_ammeter_v2.00-eagle-import" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 700 750 85 0 2 0 >DRAWING_NAME Normal 0 L B
+T 0 500 50 85 0 2 0 >LAST_DATE_TIME Normal 0 L B
+T 0 3400 50 85 0 2 0 >SHEET Normal 0 L B
+T 0 50 50 85 0 2 0 Date: Normal 0 L B
+T 0 50 450 85 0 2 0 "Document Number:" Normal 0 L B
+T 0 3500 450 85 0 2 0 REV: Normal 0 L B
+T 0 2850 50 85 0 2 0 Sheet: Normal 0 L B
+T 0 50 750 85 0 2 0 TITLE: Normal 0 L B
+P 2 2 0 0 0 0 0 200 N
+P 2 2 0 0 0 0 2800 0 N
+P 2 2 0 0 0 200 0 600 N
+P 2 2 0 0 0 200 2800 200 N
+P 2 2 0 0 0 600 0 900 N
+P 2 2 0 0 0 900 0 1400 N
+P 2 2 0 0 0 900 4000 900 N
+P 2 2 0 0 2800 0 4000 0 N
+P 2 2 0 0 2800 200 2800 0 N
+P 2 2 0 0 2800 200 3450 200 N
+P 2 2 0 0 3450 200 4000 200 N
+P 2 2 0 0 3450 600 0 600 N
+P 2 2 0 0 3450 600 3450 200 N
+P 2 2 0 0 4000 200 4000 0 N
+P 2 2 0 0 4000 600 3450 600 N
+P 2 2 0 0 4000 600 4000 200 N
+P 2 2 0 0 4000 900 4000 600 N
+P 2 2 0 0 4000 1400 0 1400 N
+P 2 2 0 0 4000 1400 4000 900 N
+ENDDRAW
+ENDDEF
+#
+# usb-ammeter-v2.00-rescue_PINHD-1X2-usb_ammeter_v2.00-eagle-import
+#
+DEF usb-ammeter-v2.00-rescue_PINHD-1X2-usb_ammeter_v2.00-eagle-import JP 0 40 Y Y 1 L N
+F0 "JP" -250 225 59 H V L BNN
+F1 "usb-ammeter-v2.00-rescue_PINHD-1X2-usb_ammeter_v2.00-eagle-import" -250 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -100 50 -100 N
+P 2 1 0 0 -250 200 -250 -100 N
+P 2 1 0 0 50 -100 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 1 -100 100 100 R 50 0 1 0 P I
+X 2 2 -100 0 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# usb-ammeter-v2.00-rescue_PINHEADLG-usb_ammeter_v2.00-eagle-import
+#
+DEF usb-ammeter-v2.00-rescue_PINHEADLG-usb_ammeter_v2.00-eagle-import J 0 40 Y Y 1 L N
+F0 "J" -250 225 59 H V L BNN
+F1 "usb-ammeter-v2.00-rescue_PINHEADLG-usb_ammeter_v2.00-eagle-import" -250 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -250 -100 50 -100 N
+P 2 1 0 0 -250 200 -250 -100 N
+P 2 1 0 0 50 -100 50 200 N
+P 2 1 0 0 50 200 -250 200 N
+X 1 P$1 -100 100 100 R 50 0 1 0 P I
+X 2 P$2 -100 0 100 R 50 0 1 0 P I
+ENDDRAW
+ENDDEF
+#
+# usb-ammeter-v2.00-rescue_USB-AMPH-UE27-AC-usb_ammeter_v2.00-eagle-import
+#
+DEF usb-ammeter-v2.00-rescue_USB-AMPH-UE27-AC-usb_ammeter_v2.00-eagle-import J 0 40 Y Y 1 L N
+F0 "J" -190 320 59 H V L BNN
+F1 "usb-ammeter-v2.00-rescue_USB-AMPH-UE27-AC-usb_ammeter_v2.00-eagle-import" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 -240 -100 -240 N
+P 2 1 0 0 -200 -200 100 -200 N
+P 2 1 0 0 -200 300 -200 -200 N
+P 2 1 0 0 -100 -300 -100 -240 N
+P 2 1 0 0 -100 -240 0 -240 N
+P 2 1 0 0 0 -300 0 -240 N
+P 2 1 0 0 0 -240 150 -240 N
+P 2 1 0 0 100 -200 100 300 N
+P 2 1 0 0 100 300 -200 300 N
+P 2 1 0 0 150 -240 150 300 N
+X D+ D+ -400 0 200 R 0 50 1 0 B
+X D- D- -400 100 200 R 0 50 1 0 B
+X GND G -400 -100 200 R 0 50 1 0 B
+X M1 G1 -100 -300 0 U 0 0 1 0 B
+X M2 G2 0 -300 0 U 0 0 1 0 B
+X V+ VCC -400 200 200 R 0 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "usb ammeter v2.00")(type KiCad)(uri "$(KIPRJMOD)/usb ammeter v2.00.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name usb_ammeter_v2.00-eagle-import)(type Legacy)(uri ${KIPRJMOD}/usb_ammeter_v2.00-eagle-import.lib)(options "")(descr ""))
+  (lib (name usb-ammeter-v2.00-rescue)(type Legacy)(uri "${KIPRJMOD}/usb ammeter v2.00-rescue.lib")(options "")(descr ""))
+)
