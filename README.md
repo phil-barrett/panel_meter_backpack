@@ -31,7 +31,7 @@ I liked the design so much, I designed another one for those ubiquitous volt and
 Here it is mounted on the Panel Meter.
 ![Mounted on Panel Meter](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC289694_DxO_2048.jpg)
 
-The Kicad Design files are located here and a [shared OSHPark Project is here](https://oshpark.com/shared_projects/dM8UnLfD).  You can order three boards from OSHPark for $10.95 USD. The BoM is pretty simple
+The Kicad Design files for Version 2.51 are located here and a [shared OSHPark Project is here](https://oshpark.com/shared_projects/dM8UnLfD).  You can order three boards from OSHPark for $10.95 USD. The BoM is pretty simple
   * J1, J5 - 2 position 3.5mm Screw Terminal - Common, Various Sources.
   * J2 Barrel Jack CUI Devices PJ-002A, 2.10mm ID (0.083"), 5.50mm OD (0.217"). Digikey - CP-002A-ND, Mouser - 490-PJ-002A. Many others fit this footprint.
   * J3 2.54mm 1x3 Pin Header - Common, Various Sources.
@@ -51,5 +51,5 @@ Version 2.21 has been updated to use a more widely available USB Micro connector
 # Panel Meter Cutout
 
 These panel meters all seem to share the same plastic bezel design.  To mount them in a panel you need to cut out a rectangle 45.5 mm by 26 mm.  (1 13/16" X 1 1/32")
-![Panel cutout diemnsions](https://github.com/phil-barrett/panel_meter_backpack/blob/main/panel%20meter%20cutout.png)
-The panel should be at least 1.5mm (1/16") thick but not more than 3mm (1/8"). For thicker panel material, you should make it a bit taller (26.5 mm or more)
+![Panel cutout dimensions](https://github.com/phil-barrett/panel_meter_backpack/blob/main/panel%20meter%20cutout.png)
+The panel should be at least 1.5mm (1/16") thick but not more than 3mm (1/8"). For thicker panel material, you should make the opening a bit taller (26.5 mm or more)
