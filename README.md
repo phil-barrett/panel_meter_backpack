@@ -29,7 +29,7 @@ I received the V2.30 boards back from OSHPark and they work great! See the USB A
 I liked the design so much, I designed another one for those ubiquitous volt and current panel meters you see all over the place. This one uses a barrel jack and/or a screw teriminal for 5-24 Volts. The meter can be powered from 5V to 30V and measure up to 100V.  I have it set up to power the meter from the measured voltage.  If you want to measure more than 30V, you will need to cut a solder jumper and use the external power pin header on the board. Output is via a screw terminal. I bought my meter from [ProtoSupplies](https://protosupplies.com/product/dual-display-0-100v-0-10a-panel-meter/). Not the cheapest but they test their meters before sending them out - something those Amazon/eBay/Aliwhatever sites clearly don't do. Protosupplies is one of my go to vendors.
 
 Here it is mounted on the Panel Meter.
-![Mounted on Panel Meter](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC139433_DxO_2048.jpg)
+![Mounted on Panel Meter](https://github.com/phil-barrett/panel_ammeter_backpack/blob/main/RC289694_DxO_2048.jpg)
 
 The Kicad Design files are located here and a [shared OSHPark Project is here](https://oshpark.com/shared_projects/dM8UnLfD).  You can order three boards from OSHPark for $10.95 USD. The BoM is pretty simple
   * J1, J5 - 2 position 3.5mm Screw Terminal - Common, Various Sources.
